@@ -149,5 +149,5 @@ if uploaded_file is not None:
             correct = "False"
 
 
-pickle.dump( count_pickle, open( "counter.p", "wb" ) )
+#pickle.dump( count_pickle, open( "counter.p", "wb" ) )
 #st.text(f"Model Version: SINGLE_MAR30MORN_9888.h5 {sum(count_pickle)/len(count_pickle) * 100}%")
