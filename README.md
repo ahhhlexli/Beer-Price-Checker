@@ -66,8 +66,9 @@ model.add(Dense(num_classes, activation = 'softmax', kernel_regularizer=regulari
 
 # Deployment / Production
 - Deployed using Streamlit, hosted with Google Cloud Platform VM
-- Link to App: **[Beer Price Checker](https://tinyurl.com/beerpricechecker "Beer Price Checker")**
-- Live deployment until end of June 
+- VM Link to App: **[Beer Price Checker](https://tinyurl.com/beerpricechecker "Beer Price Checker")**
+  - Live deployment until end of June 
+- Streamlit Share Link to App: **[Beer Price Checker](https://share.streamlit.io/ahhhlexli/beer-price-checker/main/streamlitshare_main.py "Beer Price Checker")** 
 - User uploaded photo will output a prediction and display retail prices for the predicted brand
 
 ### Sample Data Input
