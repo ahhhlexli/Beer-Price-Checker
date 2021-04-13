@@ -1,4 +1,4 @@
-![title](images/title.jpg)
+![title](images/title.JPG)
 
 # Beer Price Checker
 ## Group Project Members
@@ -21,7 +21,7 @@
 
 ### Beer Image Samples
 
-![Sample Beer](images/beer_sample.jpg)
+![Sample Beer](images/beer_sample.JPG)
 
 ### Consumer Council Data Sample
 ![Sample Consumer Council](images/consumer_sample.jpg)
@@ -71,9 +71,9 @@ model.add(Dense(num_classes, activation = 'softmax', kernel_regularizer=regulari
 - User uploaded photo will output a prediction and display retail prices for the predicted brand
 
 ### Sample Data Input
-![Sample Data Input](images/data_input.jpg)
+![Sample Data Input](images/data_input.JPG)
 ### Sample Data Output
-![Sample Data Output](images/data_output.jpg)
+![Sample Data Output](images/data_output.JPG)
 # Future Improvements 
 - Expand existing dataset 
   - Include more beer brands
