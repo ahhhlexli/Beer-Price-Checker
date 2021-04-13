@@ -76,7 +76,7 @@ def load_csv():
     return pd.read_csv("df_price.csv",header=0,index_col=0)
 
 def temp_df():
-    return df[df.Brand==predicted_class.title()]
+    return df[df.Brand==predicted_class_cropped.title()]
 
 @st.cache(suppress_st_warning=True)
 def load_model(original_image):
